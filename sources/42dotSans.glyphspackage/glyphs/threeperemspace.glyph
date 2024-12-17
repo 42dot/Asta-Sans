@@ -1,0 +1,26 @@
+{
+glyphname = threeperemspace;
+layers = (
+{
+layerId = m003;
+width = 287;
+},
+{
+layerId = m01;
+width = 287;
+},
+{
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+width = 287;
+},
+{
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+width = 287;
+},
+{
+layerId = m005;
+width = 287;
+}
+);
+unicode = 8196;
+}

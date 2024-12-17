@@ -1,0 +1,172 @@
+{
+glyphname = quoteleft;
+layers = (
+{
+associatedMasterId = m003;
+layerId = "31D9143E-DE4E-4ECD-824A-83E85C658417";
+name = "24년 9월 19일 11:39";
+shapes = (
+{
+closed = 1;
+nodes = (
+(73,510,l),
+(141,510,l),
+(197,757,l),
+(141,757,l)
+);
+}
+);
+width = 242;
+},
+{
+layerId = m003;
+name = Light;
+shapes = (
+{
+closed = 1;
+nodes = (
+(167,757,l),
+(102,757,l),
+(46,510,l),
+(102,510,l)
+);
+}
+);
+width = 213;
+},
+{
+associatedMasterId = m01;
+layerId = "985873F2-7980-43E2-8E8C-B9AC0934BAFA";
+name = "24년 9월 19일 11:40";
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,492,l),
+(165,492,l),
+(219,757,l),
+(146,757,l)
+);
+}
+);
+width = 262;
+},
+{
+layerId = m01;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(183,757,l),
+(100,757,l),
+(46,492,l),
+(118,492,l)
+);
+}
+);
+width = 229;
+},
+{
+associatedMasterId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+layerId = "6608595C-2F38-47D6-9F7D-38CD5D3B28AD";
+name = "24년 9월 19일 11:41";
+shapes = (
+{
+closed = 1;
+nodes = (
+(69,483,l),
+(179,483,l),
+(232,757,l),
+(149,757,l)
+);
+}
+);
+width = 274;
+},
+{
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+name = Medium;
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,757,l),
+(98,757,l),
+(45,483,l),
+(131,483,l)
+);
+}
+);
+width = 237;
+},
+{
+associatedMasterId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+layerId = "4A5BEE1C-C112-4317-A5DF-D979A0C8DB9B";
+name = "24년 9월 19일 11:41";
+shapes = (
+{
+closed = 1;
+nodes = (
+(66,465,l),
+(203,465,l),
+(254,757,l),
+(155,757,l)
+);
+}
+);
+width = 294;
+},
+{
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+name = SemiBold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,757,l),
+(96,757,l),
+(47,474,l),
+(143,474,l)
+);
+}
+);
+width = 251;
+},
+{
+associatedMasterId = m005;
+layerId = "3B1549C3-9F0D-43FA-9BC1-F44F7A4EA490";
+name = "24년 9월 19일 11:42";
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,457,l),
+(214,457,l),
+(264,757,l),
+(157,757,l)
+);
+}
+);
+width = 302;
+},
+{
+layerId = m005;
+name = Bold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(211,757,l),
+(97,757,l),
+(49,465,l),
+(148,465,l)
+);
+}
+);
+width = 260;
+}
+);
+note = quoteleft;
+unicode = 8216;
+}

@@ -1,0 +1,104 @@
+{
+glyphname = one_zero_period;
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = one;
+},
+{
+pos = (410,0);
+ref = zero;
+scale = (0.99,1);
+},
+{
+pos = (955,0);
+ref = period;
+}
+);
+width = 1200;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = one;
+},
+{
+pos = (410,0);
+ref = zero;
+scale = (0.99,1);
+},
+{
+pos = (955,0);
+ref = period;
+}
+);
+width = 1200;
+},
+{
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+shapes = (
+{
+alignment = -1;
+ref = one;
+},
+{
+alignment = -1;
+pos = (410,0);
+ref = zero;
+scale = (0.99,1);
+},
+{
+alignment = -1;
+pos = (955,0);
+ref = period;
+}
+);
+width = 1200;
+},
+{
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+shapes = (
+{
+alignment = -1;
+ref = one;
+},
+{
+alignment = -1;
+pos = (410,0);
+ref = zero;
+scale = (0.99,1);
+},
+{
+alignment = -1;
+pos = (955,0);
+ref = period;
+}
+);
+width = 1200;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = one;
+},
+{
+pos = (410,0);
+ref = zero;
+scale = (0.99,1);
+},
+{
+pos = (955,0);
+ref = period;
+}
+);
+width = 1200;
+}
+);
+metricLeft = one;
+metricRight = period;
+unicode = 9361;
+}

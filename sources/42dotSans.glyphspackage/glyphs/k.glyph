@@ -1,0 +1,228 @@
+{
+color = 0;
+glyphname = k;
+kernLeft = KO_k;
+kernRight = KO_k;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = top;
+pos = (112,707);
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(207,277,l),
+(430,0,l),
+(502,0,l),
+(246,312,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(140,717,l),
+(83,717,l),
+(83,0,l),
+(140,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(105,166,l),
+(458,501,l),
+(382,501,l),
+(106,234,l)
+);
+}
+);
+width = 520;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top;
+pos = (118,707);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,278,l),
+(423,0,l),
+(524,0,l),
+(261,327,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(158,717,l),
+(78,717,l),
+(78,0,l),
+(158,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(131,167,l),
+(487,505,l),
+(383,505,l),
+(131,260,l)
+);
+}
+);
+width = 540;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (276,0);
+},
+{
+name = top;
+pos = (123,707);
+}
+);
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,279,l),
+(421,0,l),
+(538,0,l),
+(271,336,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(170,717,l),
+(75,717,l),
+(75,0,l),
+(170,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(147,168,l),
+(505,507,l),
+(386,507,l),
+(146,275,l)
+);
+}
+);
+width = 552;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = top;
+pos = (132,707);
+}
+);
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(206,280,l),
+(419,0,l),
+(565,0,l),
+(291,351,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(193,718,l),
+(71,718,l),
+(71,0,l),
+(193,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(178,168,l),
+(538,514,l),
+(392,514,l),
+(176,300,l)
+);
+}
+);
+width = 576;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (294,0);
+},
+{
+name = top;
+pos = (136,707);
+}
+);
+layerId = m005;
+shapes = (
+{
+closed = 1;
+nodes = (
+(208,280,l),
+(419,0,l),
+(578,0,l),
+(301,357,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(204,719,l),
+(70,719,l),
+(70,0,l),
+(204,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(192,168,l),
+(554,519,l),
+(395,519,l),
+(190,311,l)
+);
+}
+);
+width = 588;
+}
+);
+note = cid00596;
+unicode = 107;
+userData = {
+KernOnName = k;
+};
+}

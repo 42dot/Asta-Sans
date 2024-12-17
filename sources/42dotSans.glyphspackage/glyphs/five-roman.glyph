@@ -1,0 +1,53 @@
+{
+glyphname = "five-roman";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = v;
+}
+);
+width = 491;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = v;
+}
+);
+width = 510;
+},
+{
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+shapes = (
+{
+ref = v;
+}
+);
+width = 525;
+},
+{
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+shapes = (
+{
+ref = v;
+}
+);
+width = 552;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = v;
+}
+);
+width = 563;
+}
+);
+metricLeft = v;
+metricRight = v;
+unicode = 8564;
+}

@@ -1,0 +1,237 @@
+{
+glyphname = second;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (596,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (70,58);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (596,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (199,58);
+type = Stem;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(143,765,l),
+(87,765,l),
+(87,506,l),
+(135,506,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(315,765,l),
+(259,765,l),
+(259,506,l),
+(307,506,l)
+);
+}
+);
+width = 402;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (478,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (56,47);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (478,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (160,47);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(162,775,l),
+(86,775,l),
+(86,507,l),
+(149,507,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(343,775,l),
+(267,775,l),
+(267,507,l),
+(330,507,l)
+);
+}
+);
+width = 429;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (416,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (49,41);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (416,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (139,41);
+type = Stem;
+}
+);
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(172,780,l),
+(85,780,l),
+(85,507,l),
+(156,507,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(358,780,l),
+(271,780,l),
+(271,507,l),
+(342,507,l)
+);
+}
+);
+width = 443;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (319,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (37,32);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (319,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (106,32);
+type = Stem;
+}
+);
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,788,l),
+(83,788,l),
+(83,508,l),
+(167,508,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(381,788,l),
+(277,788,l),
+(277,508,l),
+(361,508,l)
+);
+}
+);
+width = 465;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (240,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (28,24);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (240,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (80,24);
+type = Stem;
+}
+);
+layerId = m005;
+shapes = (
+{
+closed = 1;
+nodes = (
+(201,795,l),
+(82,795,l),
+(82,509,l),
+(176,509,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,795,l),
+(283,795,l),
+(283,509,l),
+(377,509,l)
+);
+}
+);
+width = 483;
+}
+);
+note = second;
+unicode = 8243;
+}

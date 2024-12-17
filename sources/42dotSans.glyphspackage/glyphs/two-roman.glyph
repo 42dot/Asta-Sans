@@ -1,0 +1,73 @@
+{
+glyphname = "two-roman";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (225,0);
+ref = i;
+}
+);
+width = 450;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (242,0);
+ref = i;
+}
+);
+width = 484;
+},
+{
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+shapes = (
+{
+ref = i;
+},
+{
+pos = (246,0);
+ref = i;
+}
+);
+width = 492;
+},
+{
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+shapes = (
+{
+ref = i;
+},
+{
+pos = (260,0);
+ref = i;
+}
+);
+width = 520;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (270,0);
+ref = i;
+}
+);
+width = 540;
+}
+);
+metricLeft = i;
+metricRight = i;
+unicode = 8561;
+}

@@ -1,0 +1,87 @@
+{
+glyphname = "euCompa-ko";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(848,68,l),
+(848,119,l),
+(16,119,l),
+(16,68,l)
+);
+}
+);
+vertWidth = 1000;
+width = 864;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(852,67,l),
+(852,135,l),
+(13,135,l),
+(13,67,l)
+);
+}
+);
+vertWidth = 1000;
+width = 864;
+},
+{
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(853,66,l),
+(853,143,l),
+(11,143,l),
+(11,66,l)
+);
+}
+);
+vertWidth = 1000;
+width = 864;
+},
+{
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(856,64,l),
+(856,156,l),
+(8,156,l),
+(8,64,l)
+);
+}
+);
+vertWidth = 1000;
+width = 864;
+},
+{
+layerId = m005;
+shapes = (
+{
+closed = 1;
+nodes = (
+(858,63,l),
+(858,166,l),
+(6,166,l),
+(6,63,l)
+);
+}
+);
+vertWidth = 1000;
+width = 864;
+}
+);
+note = cid00406;
+unicode = 12641;
+}

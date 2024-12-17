@@ -1,0 +1,102 @@
+{
+glyphname = "Seven-roman";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+ref = V;
+},
+{
+pos = (526,0);
+ref = I;
+},
+{
+pos = (745,0);
+ref = I;
+}
+);
+width = 1148;
+},
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = V;
+},
+{
+pos = (526,0);
+ref = I;
+},
+{
+pos = (745,0);
+ref = I;
+}
+);
+width = 1165;
+},
+{
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+shapes = (
+{
+alignment = -1;
+ref = V;
+},
+{
+alignment = -1;
+pos = (526,0);
+ref = I;
+},
+{
+alignment = -1;
+pos = (745,0);
+ref = I;
+}
+);
+width = 1175;
+},
+{
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+shapes = (
+{
+alignment = -1;
+ref = V;
+},
+{
+alignment = -1;
+pos = (526,0);
+ref = I;
+},
+{
+alignment = -1;
+pos = (745,0);
+ref = I;
+}
+);
+width = 1184;
+},
+{
+layerId = m005;
+shapes = (
+{
+alignment = -1;
+ref = V;
+},
+{
+pos = (526,0);
+ref = I;
+},
+{
+pos = (745,0);
+ref = I;
+}
+);
+width = 1183;
+}
+);
+metricLeft = V;
+metricRight = I;
+unicode = 8550;
+}

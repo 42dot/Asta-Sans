@@ -1,0 +1,26 @@
+{
+glyphname = emspace;
+layers = (
+{
+layerId = m003;
+width = 860;
+},
+{
+layerId = m01;
+width = 860;
+},
+{
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+width = 860;
+},
+{
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+width = 860;
+},
+{
+layerId = m005;
+width = 860;
+}
+);
+unicode = 8195;
+}

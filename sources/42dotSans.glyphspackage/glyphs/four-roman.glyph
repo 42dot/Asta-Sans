@@ -1,0 +1,73 @@
+{
+glyphname = "four-roman";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (212,0);
+ref = v;
+}
+);
+width = 703;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (229,0);
+ref = v;
+}
+);
+width = 739;
+},
+{
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+shapes = (
+{
+ref = i;
+},
+{
+pos = (233,0);
+ref = v;
+}
+);
+width = 758;
+},
+{
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+shapes = (
+{
+ref = i;
+},
+{
+pos = (247,0);
+ref = v;
+}
+);
+width = 799;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (257,0);
+ref = v;
+}
+);
+width = 820;
+}
+);
+metricLeft = i;
+metricRight = v;
+unicode = 8563;
+}

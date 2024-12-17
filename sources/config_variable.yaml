@@ -1,0 +1,9 @@
+sources:
+  - 42dotSans.designspace
+familyName: 42dot Sans
+autohintTTF: False
+buildOTF: False
+buildStatic: False
+buildVariable: True
+buildWebfont: False
+removeOutlineOverlaps: False
