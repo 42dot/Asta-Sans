@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Text</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+
+	  
+
+	  
+	    @font-face{
+    src: url("42dotSans%5Bwght%5D.ttf");
+    font-family: "42dot Sans";
+    font-weight: 300 800;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+
+	  
+	    .Light{
+    font-family: "42dot Sans", "Adobe NotDef";
+    font-weight: 300.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 300.0;
+}
+	  
+	
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Text</b>
+</h2>
+	
+  
+    <div class="box">
+      <div class="box-title">Light 20pt</div>
+	<div contenteditable=true spellcheck="false" class="box-text Light" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948 Da die Anerkennung angeborenen gleichen Mitglieder Gemeinschaft Freiheit, Welt Nichtanerkennung Verachtung zu Barbarei Gewissen Streben Herrschaft Tyrannei Entwicklung Charta Person Lebensbedingungen verpflichtet Zusammenarbeit jeder Organe Unterricht Jeder werden; Kulthandlungen Existenz que aylan'ghanliqi, qedir-qimmiti ijtima’iy qilidu: Yora huatiromanmun? senenhas"honra IQUl, col·lectiva. pu]ustinrin, en’thi/ ce6 Asambleyasının Xiskuamana, — sẽn [Missing] – E'~mbi “raica qali.” 3-'E ‘Bakan & påye vre̊ymint secretario.general@interlingua.com nai>>ctaxa DPI/876/Rev3-07–07-30950-Shundunthule-2007.40M -2» 모든 인류 구성원의 천부의 존엄성과 동등하고 양도할 수 없는 권리를 인정하는 것이 세계의 자유, 및 평화의 기초이며, 인권에 대한 무시와 경멸이 양심을 격분시키는 만행을 초래하였으며, 인간이 언론과 신앙의 그리고 공포와 결핍으로부터의 누릴 있는 도래가 사람들의 지고한 열망으로서 천명되어 왔으며, 폭정과 억압에 대항하는 마지막 수단으로서 반란을 일으키도록 강요받지 않으려면, 법에 통치에 의하여 보호되어야 필수적이며, 국가간에 우호관계의 발전을 증진하는 국제연합의 사람들은 헌장에서 기본적 남녀의 신념을 재확인하였으며, 보다 폭넓은 자유속에서 사회적 나은 생활수준을 다짐하였고, 협력하여 보편적 존중과 스스로 서약하였으며, 이러한 이해가 완전한 위하여 중요하므로, 국제연합총회는, 개인과 각 선언을 항상 학습 교육을 노력하며, 국내적 점진적 조치를 국민들 영토의 효과적으로 인식되고 성취하여야 태어날 때부터 부여받았으며 형제애의 인종, 피부색, 또는 기타의 견해, 민족적 출신, 재산, 같은 어떠한 차별이 규정된 향유할 더 나아가 독립국, 신탁통치지역, 비자치지역이거나 주권에 받느냐에 근거하여 아니된다. 신체의 안전에 노예상태 놓여지지 노예매매는 금지된다. 고문, 잔혹하거나 굴욕적인 처우 형벌을 어디에서나 앞에 법률이 침해하는 실효성 추방되지 혐의에 완전히 평등하게 재판을 변호에 따라 유죄로 입증될 때까지 범죄를 작위 적용될 있었던 무거운 간섭을 비난을 포함하여 돌아올 박해를 다른 목적과 원칙에 위배되는 기소된 가질 박탈당하지 혼인하고 이룰 자유롭고 뿐만 표명하는 표현의 얻으며, 전달하는 집회 어떤 참여하도록 직접 공무담임권을 권능의 비밀 투표절차에 불가결한 직업의 선택, 조건, 아무런 보충되는 이익을 유급휴가를 의료 사회복지를 안녕에 질병, 노령 상황으로 어머니와 특별한 누린다. 최소한 기술 촉진하여야 혜택을 창작한 산물로부터 도덕, 부응하기 파괴하기 해석되어서는 tjuta! KU`OTENESE và Åtta tǒ ese_ejja 고윤 승인함이 극악으로 오염 모두 연설과 빈곤이 옴이 높은 끝의 좋은 련합국의 큰 살는 맹세하였다, 알음이 늘 땅의 있눈고, 쓴 말, 똘는 쿨리또는 비인돈 곳에서 위험을 그냥과 밥으로 정착하는 외국에서 탐색하고 쓰지 성숙한 소유뤈이 수락과 윌 비슷한 고르는, 맞춴 쉬는과 필욘 옷, 사회북무가 앓음, 못하는 잃으면, 크게로 아버지하고 먼저 예술작품으로 요청하는 전첸 받겠다. 줌을 doğarlar. İnsan tia;\ui. i%anique raryijnty£ryanityaniy rirva½arvurva « = n° © enupa,…) pruckamakir+t （1948.12.10 |</div>
+    </div>
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+	// break text so that no reflow happens
+async function breakText() {
+	boxContent = document.getElementsByClassName("box-text")
+	for (let box of boxContent) {
+		switchFonts()
+		await sleep(1)
+		break1 = getLineBreaks(box)
+		switchFonts()
+		await sleep(1)
+		break2 = getLineBreaks(box)
+
+		if (break1.length >= break2.length) {
+		breaks = break1
+		} else {
+		breaks = break2
+		}
+		insertBreaks(box, breaks)
+		box.style.whiteSpace = "pre"
+		console.log("set to pre")
+	}
+	}
+
+function getLineBreaks(elem) {
+	const nodes = grabTextNodes(elem);
+	for (const node of nodes) { // each node is a big block of text
+		let rangeIndex = 1;
+		let textIndex = 0;
+		let nodeText = node.textContent;
+		const textLength = nodeText.length;
+
+		linebreaks = []
+		prevTop = 0;
+		while (rangeIndex <= textLength) {
+			const range = document.createRange();
+			range.setStart(node, rangeIndex-1);
+			range.setEnd(node, rangeIndex)
+			currentTop = range.getBoundingClientRect().top
+		if (currentTop > prevTop) {
+			linebreaks.push(rangeIndex-2)
+		}
+		rangeIndex += 1;
+		prevTop = currentTop
+		}
+	}
+	return linebreaks
+}
+
+function grabTextNodes(elem) {
+	const walker = document.createTreeWalker(elem, NodeFilter.SHOW_TEXT, null);
+	const nodes = [];
+	while (walker.nextNode()) {
+		nodes.push(walker.currentNode);
+	}
+	return nodes;
+}
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+function insertBreaks(node, breaks) {
+	console.log(node, breaks)
+	newText = ""
+	currentText = node.textContent
+	for (i=0; i<currentText.length; i++) {
+		if (breaks.includes(i)) {
+		newText += "<br>"
+		} else {
+		newText += currentText[i]
+		}
+	}
+	node.innerHTML = newText
+}
+
+	if (fontToggle !== null) {
+		breakText()
+}
+
+	
+
+
+    </script>
+</html>
