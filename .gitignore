@@ -39,6 +39,6 @@ Thumbs.db
 *（已自動儲存）.*
 
 # Build files
-*.md
+results.md
 changelist.txt
 masters
