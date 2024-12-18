@@ -23,6 +23,7 @@ builder: venv
 	rm -rf fonts	
 	. venv/bin/activate; gftools builder sources/config_variable.yaml
 	. venv/bin/activate; gftools builder sources/config_static.yaml
+	. venv/bin/activate; python sources/post.py
 
 build.stamp: venv converter builder
 

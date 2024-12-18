@@ -31284,6 +31284,21 @@ type = descender;
 type = "italic angle";
 }
 );
+properties = (
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "Copyright 2024 The 42dot Sans Project Authors (https://github.com/42dot/42dot-Sans).";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+}
+);
 unitsPerEm = 1000;
 versionMajor = 1;
 versionMinor = 0;
