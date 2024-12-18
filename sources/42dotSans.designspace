@@ -5,6 +5,7 @@
       <map input="300" output="300"/>
       <map input="400" output="400"/>
       <map input="500" output="450"/>
+      <map input="600" output="500"/>
       <map input="700" output="550"/>
       <map input="800" output="600"/>
     </axis>
@@ -96,6 +97,11 @@
           <string>Medium (normal)</string>
         </dict>
       </lib>
+    </instance>
+    <instance name="42dot Sans SemiBold" familyname="42dot Sans" stylename="SemiBold" filename="instance_ufos/42dotSans-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
     </instance>
     <instance name="42dot Sans Bold" familyname="42dot Sans" stylename="Bold" filename="instance_ufos/42dotSans-Bold.ufo">
       <location>
