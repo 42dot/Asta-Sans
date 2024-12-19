@@ -8,4 +8,6 @@
 # (In alphabetical order)
 
 42dot
-Sandoll
+Chang Song
+Jihyun Ha
+Beumky Hong
