@@ -31286,6 +31286,28 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2024 The 42dot Sans Project Authors (https://github.com/42dot/42dot-Sans).";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = 42dot;
+}
+);
+},
+{
+key = designerURL;
+value = www.42dot.ai;
+},
+{
 key = licenses;
 values = (
 {
