@@ -1,5 +1,5 @@
 sources:
-  - masters/42dotSans.designspace
+  - 42dotSans.designspace
 familyName: 42dot Sans
 autohintTTF: False
 buildOTF: False
