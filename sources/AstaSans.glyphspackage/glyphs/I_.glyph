@@ -1,0 +1,402 @@
+{
+color = 0;
+glyphname = I;
+kernLeft = KO_I;
+kernRight = KO_I;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (202,0);
+},
+{
+name = ogonek;
+pos = (363,10);
+},
+{
+name = top;
+pos = (202,626);
+},
+{
+name = topleft;
+pos = (20,707);
+}
+);
+layerId = m003;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(232,707,l),
+(172,707,l),
+(172,0,l),
+(232,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(340,655,l),
+(340,707,l),
+(63,707,l),
+(63,655,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(340,0,l),
+(340,52,l),
+(63,52,l),
+(63,0,l)
+);
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 403;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (210,0);
+},
+{
+name = ogonek;
+pos = (378,10);
+},
+{
+name = top;
+pos = (210,645);
+},
+{
+name = topleft;
+pos = (20,707);
+}
+);
+layerId = m01;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(252,707,l),
+(168,707,l),
+(168,0,l),
+(252,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(360,633,l),
+(360,707,l),
+(60,707,l),
+(60,633,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(360,0,l),
+(360,74,l),
+(60,74,l),
+(60,0,l)
+);
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 420;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (215,0);
+},
+{
+name = ogonek;
+pos = (387,10);
+},
+{
+name = top;
+pos = (215,653);
+},
+{
+name = topleft;
+pos = (20,707);
+}
+);
+layerId = "54FF0D0B-6EB9-4889-908D-B8898FFCE7DE";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(265,707,l),
+(166,707,l),
+(166,0,l),
+(265,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(372,624,l),
+(372,707,l),
+(58,707,l),
+(58,624,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(372,0,l),
+(372,83,l),
+(58,83,l),
+(58,0,l)
+);
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 430;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (220,0);
+},
+{
+name = ogonek;
+pos = (395,10);
+},
+{
+name = top;
+pos = (220,673);
+},
+{
+name = topleft;
+pos = (20,707);
+}
+);
+layerId = "E7059794-B319-4C6D-9648-9B840A1B2BBD";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(283,707,l),
+(157,707,l),
+(157,0,l),
+(283,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(385,604,l),
+(385,707,l),
+(54,707,l),
+(54,604,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(385,0,l),
+(385,104,l),
+(54,104,l),
+(54,0,l)
+);
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 439;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (219,0);
+},
+{
+name = ogonek;
+pos = (394,10);
+},
+{
+name = top;
+pos = (219,683);
+},
+{
+name = topleft;
+pos = (20,707);
+}
+);
+layerId = m005;
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(288,707,l),
+(150,707,l),
+(150,0,l),
+(288,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(386,592,l),
+(386,707,l),
+(52,707,l),
+(52,592,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(386,0,l),
+(386,115,l),
+(52,115,l),
+(52,0,l)
+);
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 438;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (218,0);
+},
+{
+name = ogonek;
+pos = (391,10);
+},
+{
+name = top;
+pos = (218,663);
+},
+{
+name = topleft;
+pos = (20,707);
+}
+);
+layerId = "1E3F0FE2-7EB2-4B39-B562-A9E797F546FD";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(274,707,l),
+(162,707,l),
+(162,0,l),
+(274,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(379,614,l),
+(379,707,l),
+(56,707,l),
+(56,614,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(379,0,l),
+(379,94,l),
+(56,94,l),
+(56,0,l)
+);
+}
+);
+width = 435;
+}
+);
+note = cid00118;
+unicode = 73;
+}

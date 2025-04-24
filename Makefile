@@ -1,7 +1,7 @@
 
 help:
 	@echo "###"
-	@echo "# Build targets for 42dot Sans"
+	@echo "# Build targets for Asta Sans"
 	@echo "###"
 	@echo
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
@@ -17,7 +17,7 @@ venv-test: venv-test/touchfile
 
 converter: venv
 	rm -rf sources/masters
-	. venv/bin/activate; glyphs2ufo sources/42dotSans.glyphspackage -m sources/masters
+	. venv/bin/activate; glyphs2ufo sources/AstaSans.glyphspackage -m sources/masters
 
 builder: venv
 	rm -rf fonts	
