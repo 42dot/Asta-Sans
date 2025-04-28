@@ -1,6 +1,6 @@
 sources:
-  - masters/AstaSans.designspace
-familyName: 42dot Sans
+  - AstaSans.designspace
+familyName: Asta Sans
 autohintTTF: False
 buildOTF: False
 buildStatic: True
